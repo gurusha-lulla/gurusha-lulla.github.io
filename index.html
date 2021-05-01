@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  		<meta charset="utf-8">
+  		<title>Neighborhood</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta name="author" content="flip.hr">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<nav class="navbar navbar-collapse-xs navbar-expand-md fixed-top">
+	    	
+	    	<div class="container">
+		    	<a class="navbar-brand" href="#"><i class="fa fa-map-marker"></i> Neighborhood</a>
+		      	
+		      	<button class="navbar-toggler" data-toggle="collapse" data-target="#main-menu">
+		        	<span class="navbar-toggler-icon"></span>
+		      	</button>
+
+	      		<div class="collapse navbar-collapse" id="main-menu">
+	        		<ul class="navbar-nav ml-auto">
+	          			<li class="nav-item">
+	            			<a class="nav-link" href="#" data-toggle="modal" data-target="#myModal">Feedback</a>
+	          			</li>
+	        		</ul>
+	      		</div><!-- .collapse -->
+      		</div><!-- .container -->
+    	</nav><!-- nav -->
+
+	    <div class="home-hero">
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="col-md-12">
+	    				<div class="content-box">
+	    					<h2>Explore your neighborhood</h2>
+			    			<form method="GET" action="#">
+			  					<div class="form-group">
+									<input type="text" class="form-control" placeholder="What do you want to discover today?">
+									<input type="submit" class="btn btn-green" value="Search">
+			  					</div><!-- .form-group -->
+		  					</form>
+	    				</div><!-- .content-box -->
+	    			</div><!-- .col-md-12 -->
+	    		</div><!-- .row -->
+	    	</div><!-- .container -->
+	    </div><!-- .home-hero -->
+
+	    <div class="place-list">
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="col-md-9 push-md-3">
+	    				<div class="row">
+
+							<div class="col-sm-6 col-md-6 col-lg-4">
+				    			<div class="card">
+									<img class="card-img-top" src="https://unsplash.it/350/250" alt="Place 1">
+								  	<div class="card-block">
+								    	<h4 class="card-title">PacktPub</h4>
+								    	<p class="card-text">Packt Publishing is the leading <span data-toggle="tooltip" data-placement="left" class="specific-tip-1" data-html="true" title="This is example of tooltip on left.">UK</span> provider of Technology eBooks; helping IT professionals to put software to work.</p>
+								    	<a href="#" class="btn btn-purple">More about Packt <i class="fa fa fa-angle-double-right"></i></a>
+								  	</div><!-- .card-block -->
+								</div><!-- .card -->
+							</div><!-- .col-md-4 -->
+
+							<div class="col-sm-6 col-md-6 col-lg-4">
+				    			<div class="card">
+									<img class="card-img-top" src="https://unsplash.it/350/250" alt="Place 1">
+								  	<div class="card-block">
+								    	<h4 class="card-title">Zara</h4>
+								    	<p class="card-text">Zara is a <span href="#" class="specific-tip-2" title="This is example of tooltip on top.">Spanish</span> clothing and accessories retailer based in Arteixo, Galicia. </p>
+								    	<a href="#" class="btn btn-purple">More about Zara <i class="fa fa fa-angle-double-right"></i></a>
+								  	</div><!-- .card-block -->
+								</div><!-- .card -->
+							</div><!-- .col-md-4 -->
+
+							<div class="col-sm-6 col-md-6 col-lg-4">
+				    			<div class="card">
+									<img class="card-img-top" src="https://unsplash.it/350/250" alt="Place 1">
+								  	<div class="card-block">
+								    	<h4 class="card-title">McDonald's</h4>
+								    	<p class="card-text">Classic <span href="#" class="specific-tip-3" title="This is example of tooltip on right.">American</span> long-running fast-food chain known for its burgers, fries & shakes.</p>
+								    	<a href="#" class="btn btn-purple">More about McDonald's <i class="fa fa fa-angle-double-right"></i></a>
+								  	</div><!-- .card-block -->
+								</div><!-- .card -->
+							</div><!-- .col-md-4 -->
+						</div><!-- .row -->
+					</div><!-- .col-md-9 -->
+	    			<div class="col-md-3 pull-md-9">
+						<ul class="list-group">
+						  	<a href="#" class="list-group-item active">Follow Us!</a>
+						  	<a href="#" class="list-group-item list-group-item-action" data-toggle="popover" title="Facebook" data-content="Our Facebook page is Neighbourhood App" data-trigger="focus">Facebook</a>
+						  	<a href="#" class="list-group-item list-group-item-action" data-toggle="popover" title="Twitter" data-content="Our Twitter Handle is @neighbourhood_app" data-trigger="focus">Twitter</a>
+						  	<a href="#" class="list-group-item list-group-item-action" data-toggle="popover" title="Instagram" data-content="Our Instagram Handle is @neighbourhood_app" data-trigger="focus">Instagram</a>
+						</ul>
+					</div><!-- .col-md-3 -->
+				</div><!-- .row -->
+			</div><!-- .container -->
+	    </div><!-- .place-list -->
+
+
+	    <div class="modal fade" id="myModal" role="dialog">
+    		<div class="modal-dialog">
+    			<div class="modal-content">
+			      	<div class="modal-body">
+			        	<div class="form-box">
+	    					<h3>Please provide Feedback</h3>
+		    				<p>Please provide us any feedback you have. We are always curious to know your experience.</p>
+			    			<form method="POST" action="#" class="validate" onsubmit="alert('Feedback Submitted!');return true;">
+				  				<div class="form-group">
+			    					<label class="form-control-label">E-mail</label>
+			    					<input type="email" class="form-control" placeholder="Please enter your e-mail address" data-fv-notempty="true" required>
+				  				</div><!-- .form-group -->
+				    			<div class="form-group">
+			    					<label class="form-control-label">Message</label>
+			    					<input class="form-control" placeholder="Please enter your message" data-fv-notempty="true" required>
+				  				</div><!-- .form-group -->
+				  				<div class="form-group">
+						  			<input type="submit" value="Submit" class="btn btn-green">
+						  			<input type="reset" value="Cancel" class="btn btn-green" style="background-color: #ff0000;" data-dismiss="modal">
+						  		</div><!-- .form-group -->
+			  				</form>
+  						</div><!-- .form-box -->
+			      	</div><!-- .modal-body -->
+    			</div><!-- .modal-content -->
+  			</div><!-- .modal-dialog -->
+		</div><!-- .modal -->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="js/tether.min.js"></script>
+		<script src="js/jquery.site.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+			
+	</body>
+</html>
